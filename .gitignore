@@ -1,3 +1,19 @@
+# code editor
+.idea
+
+# auto generated files and folders
+examples/data
+examples/configs
+examples/datasets
+
+# excluded gitkeep files
+!examples/data/README.md
+!examples/data/.gitkeep
+!examples/configs/iter_avg/keras/.gitkeep
+!examples/configs/.gitkeep
+!examples/datasets/.gitkeep
+!whl_files/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
