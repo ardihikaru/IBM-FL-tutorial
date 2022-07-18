@@ -228,3 +228,6 @@ In these steps, I follow [this tutorial](https://github.com/IBM/federated-learni
 * [IBM-FL WHL file](https://drive.google.com/file/d/1WKPU22hz5J6eD8Fzvknr-OZ6qmm5woQJ/view?usp=sharing)
   * Or download from the official link [here](https://github.com/IBM/federated-learning-lib/tree/main/federated-learning-lib)
   * Put these files inside `./IBM-FL-tutorial/whl_files` folder
+* IBM-FL official documentations and references
+  * [Literature 1](https://ibmfl.mybluemix.net/)
+  * [Slack channel](https://app.slack.com/client/T015XLNRHT6/)
