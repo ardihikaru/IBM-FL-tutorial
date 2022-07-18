@@ -209,12 +209,12 @@ In these steps, I follow [this tutorial](https://github.com/IBM/federated-learni
             * Imagine you are party 0, to use the model to predict the test data of your party,
             * all you need to do is to load the model and predict the test data of your party.
 
-## Process analysis inside IBM-FL
+## Analyzing workflow inside IBM-FL
 
 * When `AGGREGATOR` submit `SAVE`
     * `PARTY-X` received `POST /8`
 * When `PARTY-X` submit `REGISTER`
-    * POST /6 masuk di AG
+    * `AGGREGATOR` received `POST /6`
 * When `AGGREGATOR` submit `TRAIN`
     * `AGGREGATOR` received `POST /7` (**updating model**)
     * `PARTY-X` received `POST /7` (**updating model**)
